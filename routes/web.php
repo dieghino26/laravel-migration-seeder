@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\TrainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +15,3 @@ use App\Http\Controllers\TrainController;
 */
 
 Route::get('/', HomeController::class)->name('home');
-
-Route::get('/trains', TrainController::class)->name('train');
